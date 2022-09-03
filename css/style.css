@@ -46,7 +46,7 @@ body main .container .reviews .avatar {
   align-items: center;
   justify-content: center;
 }
-body main .container .reviews .avatar #person {
+body main .container .reviews .avatar #avatar {
   width: 200px;
   border-radius: 50%;
 }
@@ -91,6 +91,12 @@ body main .container button {
   font-size: 1.2rem;
   color: steelblue;
   padding: 5px 15px;
+}
+
+@media (max-width: 770px) {
+  .container {
+    width: 100% !important;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
