@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  transition: 0.3s;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+body main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(224, 224, 224);
+  background: linear-gradient(180deg, rgb(224, 224, 224) 0%, rgb(241, 241, 241) 100%);
+}
+body main .container {
+  width: 40%;
+  padding: 40px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 20px;
+  box-shadow: 0 0 10px 7px rgba(0, 0, 0, 0.1);
+  background: rgb(224, 224, 224);
+  background: linear-gradient(0deg, rgb(224, 224, 224) 0%, rgb(241, 241, 241) 100%);
+}
+body main .container h1 {
+  margin-bottom: 40px;
+  font-weight: bold;
+  font-size: 3rem;
+}
+body main .container .reviews {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+body main .container .reviews .avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body main .container .reviews .avatar #person {
+  width: 200px;
+  border-radius: 50%;
+}
+body main .container .reviews #author {
+  font-size: 1.3rem;
+  margin: 20px;
+}
+body main .container .reviews p {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+body main .container .reviews #job {
+  color: steelblue;
+  font-size: 1.3rem;
+}
+body main .container .reviews .prev-btn {
+  font-size: 2rem;
+}
+body main .container .reviews .prev-btn:hover {
+  color: rgb(58, 194, 194);
+}
+body main .container .reviews .random-btn {
+  border: solid 2px steelblue;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+body main .container .reviews .random-btn:hover {
+  border: solid 2px steelblue;
+  border-radius: 5px;
+  margin-top: 20px;
+  background-color: steelblue;
+  color: white;
+}
+body main .container button {
+  border: transparent;
+  background: transparent;
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: steelblue;
+  padding: 5px 15px;
+}
+
+/*# sourceMappingURL=style.css.map */
