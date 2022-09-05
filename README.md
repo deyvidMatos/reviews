@@ -1,1 +1,1 @@
-Projeto pessoal colocando js em pratica como Review dos sites. Baseado nos vingadores
+Projeto pessoal colocando js em pratica como carrocel nos sites. Baseado nos vingadores
